@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import react from "react";
+import Hello from "./React-1/Hello";
+import welcome from "./React-1/welcome";
+import Compo from "./React-1/Compo";
+import Increment from "./React-1/Increment";
+import class_compo from "./React-1/Class_compo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  
+  <Hello /> 
+
+  // <welcome />
+  // <Compo/>
+  // <Increment />
+  // <class_compo />
+  //  <Card_props />
+
+
+   
   );
 }
 
